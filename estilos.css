@@ -1,0 +1,68 @@
+body {
+    background: url(negr.png)no-repeat fixed;
+    background-size: cover;
+}
+
+#hacker-type {
+    width: 700px;
+    height: 400px;
+    color: #20c20e;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+#hacker-type p:nth-child(1) {
+    height: 28px;
+    width: 0%;
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    overflow: hidden;
+
+}
+
+#hacker-type p:nth-child(2) {
+    height: 28px;
+    width: 0%;
+    overflow: hidden;
+    animation-name: typing;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+        border-right: 1px solid #20c20e;
+    }
+
+    5% {
+        width: 5%;
+        border-right: 1px solid #20c20e;
+    }
+
+    25% {
+        width: 25%;
+        border-right: 1px solid #20c20e;
+    }
+
+    50% {
+        width: 50%;
+        border-right: 1px solid #20c20e;
+    }
+
+    75% {
+        width: 75%;
+        border-right: 1px solid #20c20e;
+    }
+
+    100% {
+        width: 100%;
+        border-right: 1px solid #20c20e;
+    }
+
+}
